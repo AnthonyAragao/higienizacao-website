@@ -150,3 +150,50 @@ body{
     font-size: 1rem;
     color: var(--clr-secondary);
 }
+
+
+.why-choose{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.why-choose__title{
+    font-size: 2.5rem;
+    color: var(--clr-secondary);
+}
+
+.why-choose__paragrafo{
+    font-size: 1rem;
+    color: var(--clr-secondary);
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.why-choose__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.why-choose__container__info{
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    text-align: start;
+}
+
+.why-choose__container__info h3{
+    font-size: 1.1rem;
+}
+
+.why-choose__container__info p{
+    font-size: 1rem;
+    color: var(--clr-secondary);
+    width: 100%;
+    margin-top: 1rem;
+}
+
