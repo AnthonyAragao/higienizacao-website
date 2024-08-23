@@ -19,7 +19,7 @@ body{
 
 .container{
     width: 80%;
-    margin: 20px auto;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,10 +151,11 @@ body{
     color: var(--clr-secondary);
 }
 
-
 .why-choose{
-    margin: 50px auto;
+    margin: 70px auto;
     text-align: center;
+    position: relative;
+    width: 100%;
 }
 
 .why-choose__title{
@@ -165,7 +166,7 @@ body{
 .why-choose__paragrafo{
     font-size: 1rem;
     color: var(--clr-secondary);
-    width: 70%;
+    width: 550px;
     margin: 2rem auto;
 }
 
@@ -174,20 +175,42 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .why-choose__container__info{
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 260px;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, .9);
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
     text-align: start;
+    transition: .5s;
+}
+
+.why-choose__container__info:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.why-choose__container__info-icon{
+    width: 70px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-radius: 4px;
+}
+
+.why-choose__container__info__text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .why-choose__container__info h3{
     font-size: 1.1rem;
+    margin-top: .9rem;
 }
 
 .why-choose__container__info p{
@@ -195,5 +218,37 @@ body{
     color: var(--clr-secondary);
     width: 100%;
     margin-top: 1rem;
+    line-height: 1.3;
 }
 
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid #FFA6E1;
+    position: absolute;
+    transform: rotate(35deg);
+    right: 10%;
+    top: -75px;
+    z-index: -1;
+}
+
+.trinagle-gray{
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 55px solid #ECECEC;
+    transform: rotate(45deg);
+    top: 10px;
+    right: 15%;
+}
+
+.virus{
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+
+.virus img{
+    width: 200px;
+}
