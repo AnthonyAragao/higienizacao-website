@@ -148,7 +148,14 @@
                 <img src="images/profissionalismo.svg" alt="" class="container-card-and-title__img">
 
                 <div class="card-and-title">
-                    <h2 class="card-and-title__title">O que as pessoas dizem?</h2>
+                    <div class="card-and-title__title-and-btns">
+                        <h2 class="card-and-title__title">O que as pessoas dizem?</h2>
+
+                        <div class="group-btns">
+                            <button><i class="fas fa-chevron-left"></i></button>
+                            <button><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
                     
                     <div class="card-and-title__card">
                         <h2>Serviço qualidantions</h2>
@@ -179,5 +186,88 @@
             </div>
         </div>
     </section>
+
+
+    <section style="
+        height: 100vh; 
+        background-color: #24273A; 
+        position: relative; 
+        width: 100%; 
+        display: flex; 
+        ">
+
+        <div style="
+            position: absolute;
+            height: 380px;
+            width: 900px; 
+            background: linear-gradient(135deg, #e36b5b 0%, #921b1e 100%);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-10deg);
+            border-radius: 50%;
+        "></div>
+
+        <style>
+            .card{
+                width: 350px;
+                height: 350px;
+                z-index: 10;
+                color: white;
+                padding: 30px;
+                border-radius: 14px 14px 0 0;
+                background-color: transparent;
+                backdrop-filter: blur(55px);
+                border: 3px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .card-teste{
+                height: 80%;
+                position: relative;
+                border-bottom: none;
+                
+            }
+
+            .card-teste::after{
+                content: '';
+                position: absolute;
+                width: 80%;
+                height: 20%;
+                bottom: -20%;
+                left: 0%;
+                border-radius: 0 0 8px 8px;
+                border: 3px solid rgba(255, 255, 255, 0.1);
+                border-top: none;
+                background-color: transparent;
+                backdrop-filter: blur(55px);
+            }
+        </style>
+
+        <div style="width: 80%; max-width: 1400px; margin: 0 auto; display: flex; justify-content: center; align-items: center; gap: 80px; ">
+            
+            <div class="card-teste" style="width: 350px; height: 350px;">
+                <div class="card " style=" border-bottom: none;">
+                    <h2>Hi</h2>
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 50px;">
+                <div class="card">
+                    <h2>Hi</h2>
+                </div>
+
+                <div class="card">
+                    <h2>Hi</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Hi</h2>
+            </div>
+        </div>
+
+
+
+    </section>
+    
 </body>
 </html>
