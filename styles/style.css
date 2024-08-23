@@ -252,3 +252,101 @@ body{
 .virus img{
     width: 200px;
 }
+
+.triangle-orange{
+    border-bottom: 55px solid #eb6a4d;
+    transform: rotate(45deg);
+}
+
+.triangle-orange__shadow{
+    border-bottom: 50px solid rgba(238, 80, 46, .3);
+    transform: rotate(45deg);
+    right: 11%;
+    top: -58px;
+    z-index: -4;
+
+}
+
+.container-card-and-title{
+    display: flex; 
+    justify-content: space-between; 
+    gap: 10px; 
+    margin-top: 200px; 
+    position: relative;
+}
+
+.container-card-and-title__img{
+    width: 550px; 
+    height: auto;
+}
+
+.card-and-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 700px;
+}
+
+
+.card-and-title__title{
+    margin-bottom: 30px;
+    color: var(--clr-secondary);
+    font-size: 2.3rem;
+    
+}
+.card-and-title__card{
+    background-color: white;
+    text-align: start;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border-left: 20px solid var(--clr-primary);
+}
+
+.card-and-title__card h2{
+    color: var(--clr-primary);
+    margin-bottom: .8rem;
+}
+
+.card-and-title__card p{
+    color: var(--clr-secondary);
+    font-size: .9rem;
+    line-height: 1.2;
+}
+
+.stars-and-person{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.stars-and-person__stars{
+    color: var(--clr-primary);
+}
+
+.stars-and-person__person{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.stars-and-person__person-info{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.stars-and-person__person-info p:first-child{
+    color: var(--clr-secondary);
+    font-weight: bold;
+}
+
+.stars-and-person__person-user{
+    border-radius: 50%;
+}
+
+.stars-and-person__person-user img{
+    width: 40px;
+    border-radius: 50%;
+}
