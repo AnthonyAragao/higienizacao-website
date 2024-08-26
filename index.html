@@ -187,87 +187,90 @@
         </div>
     </section>
 
+    <section class="cards-and-circle">
+        <div class="cards-and-circle__circle"></div>
 
-    <section style="
-        height: auto; 
-        background-color: #24273A; 
-        position: relative; 
-        width: 100%; 
-        display: flex; 
-        padding: 50px 0; 
-        ">
-
-        <div style="
-            position: absolute;
-            height: 380px;
-            width: 900px; 
-            background: linear-gradient(135deg, #e36b5b 0%, #921b1e 100%);
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) rotate(-10deg);
-            border-radius: 50%;
-        "></div>
-
-        <style>
-            .card{
-                width: 350px;
-                height: 350px;
-                z-index: 10;
-                color: white;
-                padding: 30px;
-                border-radius: 14px;
-                background-color: transparent;
-                backdrop-filter: blur(55px);
-                border: 3px solid rgba(255, 255, 255, 0.1);
-            }
-
-            .card-teste{
-                height: 80%;
-                position: relative;
-                border-bottom: none;
-            }
-
-            .card-teste::after{
-                content: '';
-                position: absolute;
-                width: 80%;
-                height: 20%;
-                bottom: -20%;
-                left: 0%;
-                border-radius: 0 0 8px 8px;
-                border: 3px solid rgba(255, 255, 255, 0.1);
-                border-top: none;
-                background-color: transparent;
-                backdrop-filter: blur(55px);
-            }
-        </style>
-
-        <div style="width: 80%; max-width: 1400px; margin: 0 auto; display: flex; justify-content: center; align-items: center; gap: 80px; ">
-            
-            <div class="card-teste" style="width: 350px; height: 350px;">
-                <div class="card " style=" border-bottom: none;">
-                    <h2>Hi</h2>
-                </div>
+        <div class="cards-and-circle__cards">
+            <div class="card">
+                <h2>Title vem aqui</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, praesentium officiis voluptas labore perspiciatis corrupti consequatur sapiente quod iure aspernatur ad voluptate error eaque repudiandae voluptatem earum eos similique voluptates.</p>
+                <img src="images/desifeccao.svg" alt="">
             </div>
 
-            <div style="display: flex; flex-direction: column; gap: 50px;">
+            <div class="cards-and-circle__cards-column">
                 <div class="card">
-                    <h2>Hi</h2>
+                    <h2>Title vem aqui</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, praesentium officiis voluptas labore perspiciatis corrupti consequatur sapiente quod iure aspernatur ad voluptate error eaque repudiandae voluptatem earum eos similique voluptates.</p>
+                    <img src="images/desifeccao.svg" alt="">
                 </div>
 
                 <div class="card">
-                    <h2>Hi</h2>
+                    <h2>Title vem aqui</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, praesentium officiis voluptas labore perspiciatis corrupti consequatur sapiente quod iure aspernatur ad voluptate error eaque repudiandae voluptatem earum eos similique voluptates.</p>
+                    <img src="images/desifeccao.svg" alt="">
                 </div>
             </div>
 
             <div class="card">
-                <h2>Hi</h2>
+                <h2>Title vem aqui</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, praesentium officiis voluptas labore perspiciatis corrupti consequatur sapiente quod iure aspernatur ad voluptate error eaque repudiandae voluptatem earum eos similique voluptates.</p>
+                <img src="images/desifeccao.svg" alt="">    
             </div>
         </div>
+    </section>
 
-
-
+    <section class="container">
+        <div class="frequently-questions">
+            <img src="images/duvida.svg" alt="">
+            <h2 class="frequently-questions__title">Perguntas Frequentes</h2>
+            <p class="frequently-questions__paragrafo">Confira as dúvidas mais comuns sobre nossos serviços de limpeza e higienização.</p>
+    
+            <div class="frequently-questions__container">
+                <div class="frequently-questions__container__question">
+                    <div class="frequently-questions__container__question__title-and-icon" onclick="openDescription(this)">
+                        <h3>Como é feita a higienização de ambientes?</h3>
+                        <button><i class="fa-solid fa-arrow-right fa-rotate-90"></i></button>
+                    </div>
+                    <p>Nossa equipe utiliza produtos de qualidade e tecnologia de ponta para garantir a remoção de bactérias, vírus e outros contaminantes, promovendo um ambiente mais saudável.</p>
+                </div>
+    
+                <div class="frequently-questions__container__question">
+                    <div class="frequently-questions__container__question__title-and-icon" onclick="openDescription(this)">
+                        <h3>Quais os benefícios da limpeza profunda</h3>
+                        <button><i class="fa-solid fa-arrow-right fa-rotate-90"></i></button>
+                    </div>
+                    <p>A limpeza profunda garante a remoção de sujeiras e impurezas que não são visíveis a olho nu, promovendo um ambiente mais saudável e seguro para você e sua família.</p>
+                </div>
+    
+                <div class="frequently-questions__container__question">
+                    <div class="frequently-questions__container__question__title-and-icon" onclick="openDescription(this)">
+                        <h3>Como é feita a desinfecção residencial e comercial?</h3>
+                        <button><i class="fa-solid fa-arrow-right fa-rotate-90"></i></button>
+                    </div>
+                    <p>Nossos serviços de desinfecção são realizados com produtos de alta eficácia, garantindo a eliminação de patógenos e a proteção da saúde de quem você ama.</p>
+                </div>
+    
+                <div class="frequently-questions__container__question">
+                    <div class="frequently-questions__container__question__title-and-icon" onclick="openDescription(this)">
+                        <h3>Quais os riscos de ácaros e fungos?</h3>
+                        <button><i class="fa-solid fa-arrow-right fa-rotate-90"></i></button>
+                    </div>
+                    <p>Ácaros e fungos podem causar alergias e problemas respiratórios, por isso é importante realizar a higienização e desinfecção do ambiente regularmente.</p>
+                </div>
+            </div>
+        </div>
     </section>
     
+
+    <script>
+        function openDescription(container) {
+            const question = container.closest('.frequently-questions__container__question');
+            if (question.classList.contains('active')) {
+                question.classList.remove('active');
+            } else {
+                question.classList.add('active');
+            }
+        }
+    </script>
 </body>
 </html>
