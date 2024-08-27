@@ -1,0 +1,71 @@
+/* Services Section */
+.services {
+    background-color: white;
+}
+
+.services-title-and-info {
+    display: flex;
+    gap: 50px;
+    padding: 100px 0;
+}
+
+.services-title-and-info__img {
+    width: 500px;
+}
+
+.services-title-and-info__title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: var(--clr-secondary);
+}
+
+.services-title-and-info__paragrafo {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: var(--clr-secondary);
+}
+
+.services-title-and-info__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.services-title-and-info__container__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.services-title-and-info__container__info-icon {
+    width: 6rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-primary);
+    border-radius: 4px;
+    color: white;
+    flex-shrink: 0;
+    transition: 0.5s;
+}
+
+.services-title-and-info__container__info:hover .services-title-and-info__container__info-icon {
+    background-color: white;
+    color: var(--clr-primary);
+    border: 1px solid var(--clr-primary);
+    transform: scale(1.1);
+}
+
+.services-title-and-info__container__info-subtitle {
+    font-size: 1.8rem;
+    line-height: 1.1;
+}
+
+.services-title-and-info__container__info-paragrafo {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: var(--clr-secondary);
+}

@@ -1,0 +1,53 @@
+/* Image and Info Section */
+.img-and-info {
+    height: 80vh;
+}
+
+.img-and-info__title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    color: var(--clr-secondary);
+}
+
+.img-and-info__title strong {
+    color: var(--clr-primary);
+}
+
+.img-and-info__paragrafo {
+    font-size: 1rem;
+    color: var(--clr-secondary);
+    margin-top: 2rem;
+}
+
+.img-and-info__btns {
+    margin-top: 1rem;
+    display: flex;
+    gap: 20px;
+}
+
+.img-and-info__btns button {
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--clr-primary);
+    color: white;
+    cursor: pointer;
+}
+
+.outline {
+    background-color: transparent !important;
+    border: 1px solid var(--clr-primary) !important;
+    color: var(--clr-primary) !important;
+    transition: 0.5s;
+}
+
+.outline:hover {
+    background-color: var(--clr-primary) !important;
+    color: white !important;
+}
+
+.img-and-info img {
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+}

@@ -1,5 +1,4 @@
-
-.container-header{
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,34 +7,38 @@
     margin: 10px auto;
     background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid rgba(255, 255, 255, 0.5);
-    padding: 1px 25px;
+    padding: 4px 25px;
     border-radius: 50px;
-    font-size: .9rem;
+    font-size: 0.9rem;
 }
 
-.container-header__logo{
+.header-logo {
     font-weight: bold;
     font-size: 1.4rem;
     color: var(--clr-primary);
 }
 
-.container-header__links{
+.navigation-menu {
     display: flex;
     gap: 20px;
     list-style: none;
     cursor: pointer;
-    font-weight: 7--;
 }
 
-.container-header__links li::after{
+.navigation-item {
+    position: relative;
+    transition: color 0.3s;
+}
+
+.navigation-item::after {
     content: "";
     display: block;
     width: 0;
-    height: 2px;    
+    height: 2px;
     background-color: var(--clr-primary);
-    transition: width .3s;
+    transition: width 0.3s;
 }
-    
-.container-header__links li:hover::after{
+
+.navigation-item:hover::after {
     width: 100%;
 }
