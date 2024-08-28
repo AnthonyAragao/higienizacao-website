@@ -27,7 +27,8 @@
 
 .why-choose-us__feature{
     width: 330px;
-    height: 280px;
+    min-height: 280px;
+    height: auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, .9);
     border-radius: 8px;
@@ -233,6 +234,72 @@
 .testimonials__person-avatar img{
     width: 40px;
     border-radius: 50%;
+}
+
+/* Responsive */
+@media screen and (max-width: 1250px){
+    .why-choose-us{
+        margin: 0 auto;
+    }
+
+    .why-choose-us__feature{
+        width: 45%;
+        height: auto;
+        min-height: 300px;
+    }
+
+    .why-choose-us__text h3{
+        font-size: 1rem;
+    }
+
+    .why-choose-us__text p{
+        font-size: .9rem;
+    }
+
+    .why-choose-us__description{
+        width: 100%;
+        margin: 0 auto 3rem auto;
+    }
+
+    .why-choose-us__decoration--triangle{
+        display: none;
+    }
+
+    .why-choose-us__decoration--triangle-gray{
+        display: none;
+    }
+
+    .why-choose-us__decoration--virus{
+        display: none;
+    }
+
+    .testimonials{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+        margin-top: 100px;
+    }
+
+    .testimonials__content{
+        width: 100%;
+    }
+
+    .testimonials__title{
+        font-size: 2rem;
+    }
+
+    .testimonials__img{
+        width: 400px;
+        max-width: 100%;
+    }
+
+    .testimonials__decoration--triangle-orange{
+        display: none;
+    }
+
+    .testimonials__decoration--triangle-orange-shadow{
+        display: none;
+    }
 }
 
 

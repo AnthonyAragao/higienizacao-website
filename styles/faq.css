@@ -87,3 +87,27 @@
     margin-top: 1rem;
     width: 90%;
 }
+
+/* Responsive */
+@media screen and (max-width: 768px){
+    .faq{
+        padding: 20px 0;
+    }
+
+    .faq__title{
+        font-size: 2rem;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .faq__paragraph{
+        font-size: 1.1rem;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+
+
+}
+
+
