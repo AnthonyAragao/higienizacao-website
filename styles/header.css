@@ -11,6 +11,24 @@
     padding: 4px 25px;
     border-radius: 50px;
     font-size: 0.9rem;
+    position: relative;
+    z-index: 1001;
+}
+
+
+.logo-and-icon-mobile{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: fit-content;
+}
+
+.icon-mobile{
+    background-color: white;
+    padding: 6px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    display: none;
 }
 
 .header-logo {
@@ -26,12 +44,12 @@
     cursor: pointer;
 }
 
-.navigation-item {
+.navigation__item {
     position: relative;
     transition: color 0.3s;
 }
 
-.navigation-item::after {
+.navigation__item::after {
     content: "";
     display: block;
     width: 0;
@@ -40,8 +58,47 @@
     transition: width 0.3s;
 }
 
-.navigation-item:hover::after {
+.navigation__item:hover::after {
     width: 100%;
+}
+
+.header__mobile-menu{
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+.header__mobile-menu.active{
+    width: 100%;
+}
+
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.header__mobile-menu__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.header__mobile-menu__item {
+    list-style: none;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--clr-primary);
+    text-decoration: none;
 }
 
 
@@ -60,10 +117,27 @@
     }
 }
 
+/* Reponsive */
+@media screen and (max-width: 768px){
+    .header-container{
+        width: 90%;
+    }
+}
 
-@media screen and (max-width: 650px) {
-    header{
+@media screen and (max-width: 576px) {
+    .navigation-menu{
         display: none;
+    }
+
+    .header-container{
+        flex-direction: column;
+        padding: 4px 18px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: 2px solid rgba(255, 255, 255, 0.7);
     }
 
     .footer__section h2{
@@ -72,5 +146,13 @@
 
     .footer__list-item, .footer__text, .footer__social-icons a{
         font-size: .8rem;
+    }
+
+    .logo-and-icon-mobile{
+        width: 100%!important;
+    }
+
+    .icon-mobile{
+        display: block;
     }
 }

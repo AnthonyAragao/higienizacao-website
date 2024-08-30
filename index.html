@@ -15,17 +15,33 @@
     <!-- Header -->
     <header>
         <div class="header-container">
-            <h1 class="header-logo">Higienização</h1>
+            <div class="logo-and-icon-mobile">
+                <h1 class="header-logo">Higienização</h1>
+    
+                <div class="icon-mobile" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
 
             <nav>
                 <ul class="navigation-menu">
-                    <li class="navigation-item">Home</li>
-                    <li class="navigation-item">Produtos</li>
-                    <li class="navigation-item">Contato</li>
-                    <li class="navigation-item">Quem Somos</li>
-                    <li class="navigation-item">Localização</li>
+                    <li class="navigation__item">Home</li>
+                    <li class="navigation__item">Produtos</li>
+                    <li class="navigation__item">Contato</li>
+                    <li class="navigation__item">Quem Somos</li>
+                    <li class="navigation__item">Localização</li>
                 </ul>
             </nav>
+        </div>
+
+        <div class="header__mobile-menu">
+            <ul class="header__mobile-menu__list">
+                <li class="header__mobile-menu__item">Home</li>
+                <li class="header__mobile-menu__item">Produtos</li>
+                <li class="header__mobile-menu__item">Contato</li>
+                <li class="header__mobile-menu__item">Quem Somos</li>
+                <li class="header__mobile-menu__item">Localização</li>
+            </ul>
         </div>
     </header>
     
@@ -310,7 +326,6 @@
         
         <p class="footer__copyright">Copyrigth &copy; Anthony Aragão 2024</p>
     </footer>
-
 
     <!-- JS -->
     <script src="js/script.js"></script>

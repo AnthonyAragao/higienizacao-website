@@ -118,3 +118,10 @@
         font-size: 0.9rem;
     }
 }
+
+
+@media screen and (max-width: 576px) {
+    .img-and-info {
+        margin: 80px auto!important;
+    }
+}
