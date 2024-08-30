@@ -114,3 +114,23 @@
         margin-top: 0.2rem;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .services-title-and-info {
+        padding: 50px 0;
+    }
+
+    .services-title-and-info__title {
+        font-size: 1.8rem;
+    }
+
+    .services-title-and-info__container__info-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .services-title-and-info__container__info-paragrafo {
+        font-size: 0.8em;
+    }
+}
+

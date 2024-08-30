@@ -43,3 +43,34 @@
 .navigation-item:hover::after {
     width: 100%;
 }
+
+
+/* Reponsive */
+@media screen and (max-width: 768px) {
+    .header-container {
+        padding: 4px 10px;
+    }
+
+    .header-logo {
+        font-size: 1.2rem;
+    }
+
+    .navigation-menu {
+        gap: 10px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    header{
+        display: none;
+    }
+
+    .footer__section h2{
+        font-size: 1.5rem;
+    }
+
+    .footer__list-item, .footer__text, .footer__social-icons a{
+        font-size: .8rem;
+    }
+}

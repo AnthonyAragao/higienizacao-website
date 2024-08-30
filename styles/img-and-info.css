@@ -103,3 +103,18 @@
         margin-top: 1rem;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .img-and-info {
+        gap: 25px;
+    }
+
+    .img-and-info__title {
+        font-size: 2rem;
+    }
+
+    .img-and-info__paragrafo {
+        font-size: 0.9rem;
+    }
+}

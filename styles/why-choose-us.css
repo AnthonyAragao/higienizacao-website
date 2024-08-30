@@ -262,12 +262,18 @@
     }
 
     .why-choose-us__decoration--triangle{
-        display: none;
+        display: block;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 50px solid #FFA6E1;
+    }
+    .why-choose-us__decoration--triangle-gray{
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 40px solid #ECECEC;
+        right: 25%;
     }
 
-    .why-choose-us__decoration--triangle-gray{
-        display: none;
-    }
 
     .why-choose-us__decoration--virus{
         display: none;
@@ -293,13 +299,45 @@
         max-width: 100%;
     }
 
-    .testimonials__decoration--triangle-orange{
-        display: none;
-    }
 
+
+    .testimonials__decoration--triangle-orange{
+        border-bottom: 45px solid #eb6a4d;
+    }
+    
     .testimonials__decoration--triangle-orange-shadow{
-        display: none;
+        border-bottom: 40px solid rgba(238, 80, 46, .3);
     }
 }
 
+
+@media screen and (max-width: 768px){
+    .why-choose-us__title{
+        line-height: 1.1;
+        font-size: 2rem;
+    }
+
+    .why-choose-us__description{
+        margin: 1rem auto 3rem auto;
+    }
+
+    .why-choose-us__features{
+        gap: 10px;
+    }
+
+    .why-choose-us__feature{
+        width: 100%;
+        margin-bottom: 20px;
+        min-height: auto;
+    }
+
+    .testimonials__header{
+        align-items: start;
+    }
+
+    .testimonials__title{
+        font-size: 1.3rem;
+        line-height: 1.1;
+    }
+}
 
