@@ -2,7 +2,7 @@
     width: 100%; 
     height: auto; 
     padding: 120px 0; 
-    background-color: #24273A; 
+    background-color: #111827; 
     position: relative; 
     overflow: hidden;
 }
@@ -11,7 +11,7 @@
     position: absolute;
     height: 380px;
     width: 900px; 
-    background: linear-gradient(135deg, #f08a7d 0%, #921b1e 100%);
+    background: linear-gradient(135deg, #0067FF 0%, #111827 100%);
     /* background: linear-gradient(135deg, #e36b5b 0%, #921b1e 100%); */
     top: 50%;
     left: 50%;

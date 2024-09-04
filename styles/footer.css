@@ -1,5 +1,5 @@
 footer{
-    background-color: #fff;
+    background-color: #111827;
     padding: 30px 0;
     text-align: center;
 }
@@ -23,7 +23,7 @@ footer{
 }
 
 .footer__title{
-    color: var(--clr-primary);
+    color: #fff;
     font-size: 1.8rem;
 }
 
@@ -33,7 +33,7 @@ footer{
 }
 
 .footer__list-item{
-    color: var(--clr-secondary);
+    color: #fff;
     font-size: .9rem;
     cursor: pointer;
     transition: .4s;
@@ -59,7 +59,7 @@ footer{
 }
 
 .footer__text{
-    color: var(--clr-secondary);
+    color: #fff;
     font-size: .9rem;
     display: flex;
     flex-direction: column;
@@ -78,7 +78,7 @@ footer{
 
 .footer__social-icons a{
     text-decoration: none;
-    color: var(--clr-secondary);
+    color: #fff;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -86,7 +86,7 @@ footer{
 }
 
 .footer__icon{
-    color: var(--clr-secondary);
+    color: #fff;
     font-size: 1rem;
     cursor: pointer;
 }    
@@ -94,7 +94,7 @@ footer{
 .footer__copyright {
     margin-top: 30px;
     font-size: 0.9rem;
-    color: var(--clr-secondary);
+    color: #fff;
 }
 
 

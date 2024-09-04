@@ -85,7 +85,7 @@
 .why-choose-us__decoration--triangle-gray{
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-bottom: 55px solid #ECECEC;
+    border-bottom: 55px solid #cacacc;
     transform: rotate(45deg);
     top: 10px;
     right: 15%;
@@ -112,12 +112,12 @@
 }
 
 .testimonials__decoration--triangle-orange{
-    border-bottom: 55px solid #eb6a4d;
+    border-bottom: 55px solid #4C94FE;
     transform: rotate(45deg);
 }
 
 .testimonials__decoration--triangle-orange-shadow{
-    border-bottom: 50px solid rgba(238, 80, 46, .3);
+    border-bottom: 50px solid rgba(76, 148, 254, .3);
     transform: rotate(45deg);
     right: 11%;
     top: -58px;
@@ -234,6 +234,18 @@
 .testimonials__person-avatar img{
     width: 40px;
     border-radius: 50%;
+}
+
+.line-bottom{
+    width: 3000px;
+    height: 300px;
+    background-color: #111827;
+    border: 8px solid #0067FF;
+    position: absolute;
+    bottom: -250px;
+    left: -500px;
+    transform: rotate(-3deg);
+    z-index: -1;
 }
 
 /* Responsive */
