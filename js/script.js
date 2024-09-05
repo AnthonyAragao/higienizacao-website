@@ -11,6 +11,7 @@ function toggleMobileMenu() {
 }
 
 
+// Close mobile menu when click on link
 const linksMenuMobile = document.querySelectorAll('.header__mobile-menu__item');
 linksMenuMobile.forEach(link => {
     link.addEventListener('click', () => {
