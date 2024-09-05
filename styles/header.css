@@ -15,7 +15,6 @@
     z-index: 1001;
 }
 
-
 .logo-and-icon-mobile{
     display: flex; 
     justify-content: space-between; 
@@ -102,7 +101,7 @@
 }
 
 
-/* Reponsive */
+/* Breakpoints */
 @media screen and (max-width: 768px) {
     .header-container {
         padding: 4px 10px;
@@ -117,7 +116,6 @@
     }
 }
 
-/* Reponsive */
 @media screen and (max-width: 768px){
     .header-container{
         width: 90%;

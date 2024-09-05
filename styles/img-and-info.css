@@ -1,5 +1,5 @@
 .img-and-info {
-    height: 80vh;
+    min-height: 90vh;
 }
 
 .img-and-info__title {
@@ -52,7 +52,7 @@
 }
 
 
-/* Reponsive */
+/* Breakpoints */
 @media screen and (max-width: 1400px) {
     .img-and-info {
         height: auto;
@@ -69,6 +69,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .img-and-info {
+        min-height: auto;
+    }
+
     .img-and-info img {
         width: 400px;
     }
@@ -118,7 +122,6 @@
         font-size: 0.9rem;
     }
 }
-
 
 @media screen and (max-width: 576px) {
     .img-and-info {

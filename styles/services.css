@@ -75,7 +75,7 @@
 }
 
 
-/* Reponsive */
+/* Breakpoints */
 @media screen and (max-width: 1200px) {
     .services-title-and-info{
         flex-direction: column;

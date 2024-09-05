@@ -23,7 +23,7 @@ footer{
 }
 
 .footer__title{
-    color: #fff;
+    color: #FC5B5B;
     font-size: 1.8rem;
 }
 
@@ -48,7 +48,7 @@ footer{
     content: '';
     width: 0;
     height: 2px;
-    background-color: var(--clr-primary); 
+    background-color: #FC5B5B; 
     position: absolute;
     bottom: 0;  
     transition: width .4s;
@@ -98,7 +98,7 @@ footer{
 }
 
 
-/* Reponsive */
+/* Breakpoints */
 @media screen and (max-width: 992px) {
     .footer__container{
         flex-direction: column;
@@ -128,6 +128,3 @@ footer{
     }
   
 }
-
-
-
