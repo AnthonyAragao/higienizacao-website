@@ -46,6 +46,8 @@
 .navigation__item {
     position: relative;
     transition: color 0.3s;
+    text-decoration: none;
+    color: var(--clr-secondary);
 }
 
 .navigation__item::after {
@@ -100,6 +102,10 @@
     text-decoration: none;
 }
 
+.header__mobile-menu__item a{
+    color: var(--clr-primary);
+    text-decoration: none;
+}
 
 /* Breakpoints */
 @media screen and (max-width: 768px) {

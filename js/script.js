@@ -9,3 +9,11 @@ function toggleMobileMenu() {
     menu.classList.toggle('active');
     body.classList.toggle('overflow-hidden');
 }
+
+
+const linksMenuMobile = document.querySelectorAll('.header__mobile-menu__item');
+linksMenuMobile.forEach(link => {
+    link.addEventListener('click', () => {
+        document.querySelector('.header__mobile-menu').classList.remove('active');
+    });
+});
